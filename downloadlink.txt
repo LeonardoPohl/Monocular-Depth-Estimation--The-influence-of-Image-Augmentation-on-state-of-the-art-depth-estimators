@@ -1,0 +1,22 @@
+Please download the following files
+
+Download and Paste
+https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/newcrfs/models/model_nyu.ckpt
+and
+https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/newcrfs/models/model_kittieigen.ckpt
+into "sourcefiles/Code/checkpoints"
+
+Download
+https://drive.google.com/file/d/1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP/view
+and extract the subfolders (not sync itself) into "sourcefiles/data/nyu"
+
+Run "sourcefiles/data/KITTI/raw_data_downloader.sh", which will download the files into "sourcefiles/data/KITTI/2011_09_26". 
+The code was only written to use the drives on that day up to drive 36. So you can either interrupt the scipt once it reaches past 36, 
+or adapt the code to read the files automatically.
+
+Finally 
+Create an account (or login with an existing one) on http://www.cvlibs.net/datasets/kitti/user_login.php and download:
+http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction
+extract the folders into "sourcefiles/data/KITTI/"
+
+Sorry for not automating this.
