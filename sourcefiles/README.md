@@ -1,6 +1,6 @@
 # Monocular-Depth-Estimation
 
-## How to run the experiments (after downloading the files according to `../downloadlink.txt`)
+## How to run the experiments (after downloading the files according to `../downloadlink.txt` or `../README.md`)
 
 Either pip install the requirements or preferably open the folder as a docker container using the Dockerfile in `.devcontainer/Dockerfile`, the requirements will be installed automatically.
 
